@@ -32,3 +32,15 @@ The resizing of images is totally broken. I have no idea how Apple manages to ge
 ## Related SwiftUI Bugs
 
 See the bugs for the Profile.
+
+# Author
+
+Dominik Hauser
+
+Follow me on [Twitter](https://twitter.com/dasdom) or add my [blog](https://dasdom.github.io) to you RSS reader.
+
+# Licence
+
+MIT
+
+See the Licence file.
