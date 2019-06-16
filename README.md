@@ -33,6 +33,14 @@ The resizing of images is totally broken. I have no idea how Apple manages to ge
 
 See the bugs for the Profile.
 
+# Mail Inbox
+
+![](screenshots/mail_inbox.png)
+
+## Related SwiftUI Bugs
+
+Same alignment bug as for the calculator. Therefore the subject an the text are not aligned to the sender.
+
 # Author
 
 Dominik Hauser
