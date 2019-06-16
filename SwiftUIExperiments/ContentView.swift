@@ -9,16 +9,19 @@ struct ContentView : View {
     NavigationView {
       List {
         NavigationButton(destination: Calculator()) {
-          Text("Calculator")
+          ExperimentRow(title: "Calculator", imageName: "calculator")
         }
         NavigationButton(destination: iOSCalculator()) {
-          Text("iOS Calculator")
+          ExperimentRow(title: "iOS Calculator", imageName: "ios_calculator")
         }
         NavigationButton(destination: Profile()) {
-          Text("Profile")
+          ExperimentRow(title: "Profile", imageName: "profile")
         }
         NavigationButton(destination: TwitterTimeline()) {
-          Text("Twitter Timeline")
+          ExperimentRow(title: "Twitter Timeline", imageName: "twitter_feed")
+        }
+        NavigationButton(destination: MailInbox()) {
+          ExperimentRow(title: "Mail Inbox", imageName: "mail_inbox")
         }
       }
       .navigationBarTitle(Text("SwiftUI Experiments"))

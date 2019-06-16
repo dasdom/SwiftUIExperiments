@@ -19,6 +19,11 @@
 		F2E0B0BD22B5927F00CE5BF2 /* TwitterTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E0B0BC22B5927F00CE5BF2 /* TwitterTimeline.swift */; };
 		F2E0B0C122B5931C00CE5BF2 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E0B0BF22B5931C00CE5BF2 /* Tweet.swift */; };
 		F2E0B0C222B5931C00CE5BF2 /* TweetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E0B0C022B5931C00CE5BF2 /* TweetRow.swift */; };
+		F2E0B0C422B618F100CE5BF2 /* ExperimentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E0B0C322B618F100CE5BF2 /* ExperimentRow.swift */; };
+		F2E0B0C622B61D3900CE5BF2 /* MailInbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E0B0C522B61D3900CE5BF2 /* MailInbox.swift */; };
+		F2E0B0CB22B61DDA00CE5BF2 /* MailDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E0B0C822B61DD900CE5BF2 /* MailDetail.swift */; };
+		F2E0B0CC22B61DDA00CE5BF2 /* Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E0B0C922B61DD900CE5BF2 /* Mail.swift */; };
+		F2E0B0CD22B61DDA00CE5BF2 /* MailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E0B0CA22B61DD900CE5BF2 /* MailRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +41,11 @@
 		F2E0B0BC22B5927F00CE5BF2 /* TwitterTimeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterTimeline.swift; sourceTree = "<group>"; };
 		F2E0B0BF22B5931C00CE5BF2 /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 		F2E0B0C022B5931C00CE5BF2 /* TweetRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetRow.swift; sourceTree = "<group>"; };
+		F2E0B0C322B618F100CE5BF2 /* ExperimentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentRow.swift; sourceTree = "<group>"; };
+		F2E0B0C522B61D3900CE5BF2 /* MailInbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailInbox.swift; sourceTree = "<group>"; };
+		F2E0B0C822B61DD900CE5BF2 /* MailDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailDetail.swift; sourceTree = "<group>"; };
+		F2E0B0C922B61DD900CE5BF2 /* Mail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mail.swift; sourceTree = "<group>"; };
+		F2E0B0CA22B61DD900CE5BF2 /* MailRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +81,7 @@
 				F2E0B08122B5801700CE5BF2 /* AppDelegate.swift */,
 				F2E0B08322B5801700CE5BF2 /* SceneDelegate.swift */,
 				F2E0B08522B5801700CE5BF2 /* ContentView.swift */,
+				F2E0B0C322B618F100CE5BF2 /* ExperimentRow.swift */,
 				F2E0B09722B5806E00CE5BF2 /* Experiments */,
 				F2E0B08722B5801900CE5BF2 /* Assets.xcassets */,
 				F2E0B08C22B5801900CE5BF2 /* LaunchScreen.storyboard */,
@@ -95,6 +106,7 @@
 				F2E0B09822B582FA00CE5BF2 /* iOSCalculator.swift */,
 				F2E0B0BA22B58EC100CE5BF2 /* Profile.swift */,
 				F2E0B0BE22B592B200CE5BF2 /* Twitter */,
+				F2E0B0C722B61D7C00CE5BF2 /* Mail */,
 			);
 			path = Experiments;
 			sourceTree = "<group>";
@@ -107,6 +119,17 @@
 				F2E0B0C022B5931C00CE5BF2 /* TweetRow.swift */,
 			);
 			path = Twitter;
+			sourceTree = "<group>";
+		};
+		F2E0B0C722B61D7C00CE5BF2 /* Mail */ = {
+			isa = PBXGroup;
+			children = (
+				F2E0B0C522B61D3900CE5BF2 /* MailInbox.swift */,
+				F2E0B0C922B61DD900CE5BF2 /* Mail.swift */,
+				F2E0B0C822B61DD900CE5BF2 /* MailDetail.swift */,
+				F2E0B0CA22B61DD900CE5BF2 /* MailRow.swift */,
+			);
+			path = Mail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,12 +203,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2E0B0C622B61D3900CE5BF2 /* MailInbox.swift in Sources */,
+				F2E0B0CD22B61DDA00CE5BF2 /* MailRow.swift in Sources */,
 				F2E0B08222B5801700CE5BF2 /* AppDelegate.swift in Sources */,
 				F2E0B0BB22B58EC100CE5BF2 /* Profile.swift in Sources */,
 				F2E0B0BD22B5927F00CE5BF2 /* TwitterTimeline.swift in Sources */,
 				F2E0B09622B5806400CE5BF2 /* Calculator.swift in Sources */,
+				F2E0B0CB22B61DDA00CE5BF2 /* MailDetail.swift in Sources */,
 				F2E0B09922B582FA00CE5BF2 /* iOSCalculator.swift in Sources */,
+				F2E0B0C422B618F100CE5BF2 /* ExperimentRow.swift in Sources */,
 				F2E0B08422B5801700CE5BF2 /* SceneDelegate.swift in Sources */,
+				F2E0B0CC22B61DDA00CE5BF2 /* Mail.swift in Sources */,
 				F2E0B08622B5801700CE5BF2 /* ContentView.swift in Sources */,
 				F2E0B0C122B5931C00CE5BF2 /* Tweet.swift in Sources */,
 				F2E0B0C222B5931C00CE5BF2 /* TweetRow.swift in Sources */,
