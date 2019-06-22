@@ -15,7 +15,7 @@ The alignment of the `0` button to the leading edge of `1` and the trailing edge
 
 ## Related SwiftUI Bugs
 
-See the alignment bug from the calculator above. In addition there is a space bug resulting in a white space between the label and the buttons. I expect that to be solved before SwiftUI 1.0 ships.
+See the alignment bug from the calculator above. ~In addition there is a space bug resulting in a white space between the label and the buttons. I expect that to be solved before SwiftUI 1.0 ships.~
 
 # Profile
 
@@ -23,7 +23,7 @@ See the alignment bug from the calculator above. In addition there is a space bu
 
 ## Related SwiftUI Bugs
 
-The resizing of images is totally broken. I have no idea how Apple manages to get it to work in their session demos. It doesn't work at all in the first beta.
+~The resizing of images is totally broken. I have no idea how Apple manages to get it to work in their session demos. It doesn't work at all in the first beta.~
 
 # Twitter Feed
 
@@ -31,7 +31,7 @@ The resizing of images is totally broken. I have no idea how Apple manages to ge
 
 ## Related SwiftUI Bugs
 
-See the bugs for the Profile.
+~See the bugs for the Profile.~
 
 # Mail Inbox
 
