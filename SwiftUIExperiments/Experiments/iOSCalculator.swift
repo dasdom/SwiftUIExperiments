@@ -112,7 +112,7 @@ struct iOSCalculator : View {
   ]
   
   var body: some View {
-    VStack {
+    VStack(spacing: 0) {
       VStack(alignment: .trailing) {
         Spacer()
         

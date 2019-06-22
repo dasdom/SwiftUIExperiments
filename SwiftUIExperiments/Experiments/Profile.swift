@@ -10,8 +10,8 @@ struct Profile : View {
       ZStack(alignment: .trailing) {
         Image("header")
           .resizable()
-          .aspectRatio(contentMode: .fit)
-          //          .frame(minWidth: 0, maxWidth: .infinity)
+          .aspectRatio(contentMode: .fill)
+//          .frame(minWidth: 0, maxWidth: .infinity)
           .background(Color.yellow)
         
         VStack(spacing: 10) {

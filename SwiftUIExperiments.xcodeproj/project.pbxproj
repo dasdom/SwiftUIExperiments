@@ -24,6 +24,7 @@
 		F2E0B0CB22B61DDA00CE5BF2 /* MailDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E0B0C822B61DD900CE5BF2 /* MailDetail.swift */; };
 		F2E0B0CC22B61DDA00CE5BF2 /* Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E0B0C922B61DD900CE5BF2 /* Mail.swift */; };
 		F2E0B0CD22B61DDA00CE5BF2 /* MailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E0B0CA22B61DD900CE5BF2 /* MailRow.swift */; };
+		F2E0B0CF22B6CA5600CE5BF2 /* RemindersOnbording.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E0B0CE22B6CA5600CE5BF2 /* RemindersOnbording.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		F2E0B0C822B61DD900CE5BF2 /* MailDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailDetail.swift; sourceTree = "<group>"; };
 		F2E0B0C922B61DD900CE5BF2 /* Mail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mail.swift; sourceTree = "<group>"; };
 		F2E0B0CA22B61DD900CE5BF2 /* MailRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailRow.swift; sourceTree = "<group>"; };
+		F2E0B0CE22B6CA5600CE5BF2 /* RemindersOnbording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersOnbording.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				F2E0B0BA22B58EC100CE5BF2 /* Profile.swift */,
 				F2E0B0BE22B592B200CE5BF2 /* Twitter */,
 				F2E0B0C722B61D7C00CE5BF2 /* Mail */,
+				F2E0B0CE22B6CA5600CE5BF2 /* RemindersOnbording.swift */,
 			);
 			path = Experiments;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				F2E0B0CC22B61DDA00CE5BF2 /* Mail.swift in Sources */,
 				F2E0B08622B5801700CE5BF2 /* ContentView.swift in Sources */,
 				F2E0B0C122B5931C00CE5BF2 /* Tweet.swift in Sources */,
+				F2E0B0CF22B6CA5600CE5BF2 /* RemindersOnbording.swift in Sources */,
 				F2E0B0C222B5931C00CE5BF2 /* TweetRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

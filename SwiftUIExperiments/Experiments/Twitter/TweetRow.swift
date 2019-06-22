@@ -12,7 +12,7 @@ struct TweetRow : View {
     HStack(alignment: .top) {
       tweet.avatar
         .resizable()
-        .aspectRatio(contentMode: .fit)
+        .aspectRatio(contentMode: .fill)
         .frame(minWidth: 0, maxWidth: 60, minHeight: 0, maxHeight: 60)
         .cornerRadius(5)
       

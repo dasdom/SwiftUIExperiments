@@ -23,6 +23,9 @@ struct ContentView : View {
         NavigationButton(destination: MailInbox()) {
           ExperimentRow(title: "Mail Inbox", imageName: "mail_inbox")
         }
+        NavigationButton(destination: RemindersOnbording()) {
+          ExperimentRow(title: "Reminders Onboarding", imageName: nil)
+        }
       }
       .navigationBarTitle(Text("SwiftUI Experiments"))
     }
