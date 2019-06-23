@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F20925B422BE3E60008E078F /* InstagramFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20925B322BE3E60008E078F /* InstagramFeed.swift */; };
+		F20925B722BE3F2F008E078F /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20925B622BE3F2F008E078F /* Avatar.swift */; };
+		F20925B922BE4CD6008E078F /* InstagramPostRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20925B822BE4CD6008E078F /* InstagramPostRow.swift */; };
+		F20925BB22BF53C3008E078F /* PosterInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20925BA22BF53C3008E078F /* PosterInfo.swift */; };
+		F20925BD22BF5483008E078F /* ActionBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20925BC22BF5483008E078F /* ActionBar.swift */; };
+		F20925BF22BF5674008E078F /* PostText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20925BE22BF5674008E078F /* PostText.swift */; };
 		F2E0B08222B5801700CE5BF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E0B08122B5801700CE5BF2 /* AppDelegate.swift */; };
 		F2E0B08422B5801700CE5BF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E0B08322B5801700CE5BF2 /* SceneDelegate.swift */; };
 		F2E0B08622B5801700CE5BF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E0B08522B5801700CE5BF2 /* ContentView.swift */; };
@@ -24,10 +30,15 @@
 		F2E0B0CB22B61DDA00CE5BF2 /* MailDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E0B0C822B61DD900CE5BF2 /* MailDetail.swift */; };
 		F2E0B0CC22B61DDA00CE5BF2 /* Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E0B0C922B61DD900CE5BF2 /* Mail.swift */; };
 		F2E0B0CD22B61DDA00CE5BF2 /* MailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E0B0CA22B61DD900CE5BF2 /* MailRow.swift */; };
-		F2E0B0CF22B6CA5600CE5BF2 /* RemindersOnbording.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E0B0CE22B6CA5600CE5BF2 /* RemindersOnbording.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F20925B322BE3E60008E078F /* InstagramFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramFeed.swift; sourceTree = "<group>"; };
+		F20925B622BE3F2F008E078F /* Avatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
+		F20925B822BE4CD6008E078F /* InstagramPostRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramPostRow.swift; sourceTree = "<group>"; };
+		F20925BA22BF53C3008E078F /* PosterInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterInfo.swift; sourceTree = "<group>"; };
+		F20925BC22BF5483008E078F /* ActionBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionBar.swift; sourceTree = "<group>"; };
+		F20925BE22BF5674008E078F /* PostText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostText.swift; sourceTree = "<group>"; };
 		F2E0B07E22B5801700CE5BF2 /* SwiftUIExperiments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIExperiments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2E0B08122B5801700CE5BF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2E0B08322B5801700CE5BF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,7 +58,6 @@
 		F2E0B0C822B61DD900CE5BF2 /* MailDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailDetail.swift; sourceTree = "<group>"; };
 		F2E0B0C922B61DD900CE5BF2 /* Mail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mail.swift; sourceTree = "<group>"; };
 		F2E0B0CA22B61DD900CE5BF2 /* MailRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailRow.swift; sourceTree = "<group>"; };
-		F2E0B0CE22B6CA5600CE5BF2 /* RemindersOnbording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersOnbording.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +71,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F20925B522BE3E9B008E078F /* Instagram */ = {
+			isa = PBXGroup;
+			children = (
+				F20925B322BE3E60008E078F /* InstagramFeed.swift */,
+				F20925B822BE4CD6008E078F /* InstagramPostRow.swift */,
+				F20925B622BE3F2F008E078F /* Avatar.swift */,
+				F20925BA22BF53C3008E078F /* PosterInfo.swift */,
+				F20925BC22BF5483008E078F /* ActionBar.swift */,
+				F20925BE22BF5674008E078F /* PostText.swift */,
+			);
+			path = Instagram;
+			sourceTree = "<group>";
+		};
 		F2E0B07522B5801600CE5BF2 = {
 			isa = PBXGroup;
 			children = (
@@ -109,7 +132,7 @@
 				F2E0B0BA22B58EC100CE5BF2 /* Profile.swift */,
 				F2E0B0BE22B592B200CE5BF2 /* Twitter */,
 				F2E0B0C722B61D7C00CE5BF2 /* Mail */,
-				F2E0B0CE22B6CA5600CE5BF2 /* RemindersOnbording.swift */,
+				F20925B522BE3E9B008E078F /* Instagram */,
 			);
 			path = Experiments;
 			sourceTree = "<group>";
@@ -210,16 +233,21 @@
 				F2E0B0CD22B61DDA00CE5BF2 /* MailRow.swift in Sources */,
 				F2E0B08222B5801700CE5BF2 /* AppDelegate.swift in Sources */,
 				F2E0B0BB22B58EC100CE5BF2 /* Profile.swift in Sources */,
+				F20925B422BE3E60008E078F /* InstagramFeed.swift in Sources */,
 				F2E0B0BD22B5927F00CE5BF2 /* TwitterTimeline.swift in Sources */,
+				F20925BB22BF53C3008E078F /* PosterInfo.swift in Sources */,
+				F20925B722BE3F2F008E078F /* Avatar.swift in Sources */,
+				F20925BD22BF5483008E078F /* ActionBar.swift in Sources */,
+				F20925B922BE4CD6008E078F /* InstagramPostRow.swift in Sources */,
 				F2E0B09622B5806400CE5BF2 /* Calculator.swift in Sources */,
 				F2E0B0CB22B61DDA00CE5BF2 /* MailDetail.swift in Sources */,
 				F2E0B09922B582FA00CE5BF2 /* iOSCalculator.swift in Sources */,
 				F2E0B0C422B618F100CE5BF2 /* ExperimentRow.swift in Sources */,
 				F2E0B08422B5801700CE5BF2 /* SceneDelegate.swift in Sources */,
 				F2E0B0CC22B61DDA00CE5BF2 /* Mail.swift in Sources */,
+				F20925BF22BF5674008E078F /* PostText.swift in Sources */,
 				F2E0B08622B5801700CE5BF2 /* ContentView.swift in Sources */,
 				F2E0B0C122B5931C00CE5BF2 /* Tweet.swift in Sources */,
-				F2E0B0CF22B6CA5600CE5BF2 /* RemindersOnbording.swift in Sources */,
 				F2E0B0C222B5931C00CE5BF2 /* TweetRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

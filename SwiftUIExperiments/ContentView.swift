@@ -23,8 +23,8 @@ struct ContentView : View {
         NavigationButton(destination: MailInbox()) {
           ExperimentRow(title: "Mail Inbox", imageName: "mail_inbox")
         }
-        NavigationButton(destination: RemindersOnbording()) {
-          ExperimentRow(title: "Reminders Onboarding", imageName: nil)
+        NavigationButton(destination: InstagramFeed()) {
+          ExperimentRow(title: "Instagram", imageName: nil)
         }
       }
       .navigationBarTitle(Text("SwiftUI Experiments"))
