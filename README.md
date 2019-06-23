@@ -41,6 +41,10 @@ See the alignment bug from the calculator above. ~In addition there is a space b
 
 Same alignment bug as for the calculator. Therefore the subject an the text are not aligned to the sender.
 
+# Instagram
+
+![](screenshots/instagram.png)
+
 # Author
 
 Dominik Hauser
