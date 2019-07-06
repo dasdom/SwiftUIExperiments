@@ -16,7 +16,7 @@ struct MailInbox : View {
   
   var body: some View {
     List(mails.identified(by: \.id)) { mail in
-      NavigationButton(destination: MailDetail()) {
+      NavigationLink(destination: MailDetail()) {
         MailRow(mail: mail)
       }
       }

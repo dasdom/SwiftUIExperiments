@@ -8,22 +8,22 @@ struct ContentView : View {
   var body: some View {
     NavigationView {
       List {
-        NavigationButton(destination: Calculator()) {
+        NavigationLink(destination: Calculator()) {
           ExperimentRow(title: "Calculator", imageName: "calculator")
         }
-        NavigationButton(destination: iOSCalculator()) {
+        NavigationLink(destination: iOSCalculator()) {
           ExperimentRow(title: "iOS Calculator", imageName: "ios_calculator")
         }
-        NavigationButton(destination: Profile()) {
+        NavigationLink(destination: Profile()) {
           ExperimentRow(title: "Profile", imageName: "profile")
         }
-        NavigationButton(destination: TwitterTimeline()) {
+        NavigationLink(destination: TwitterTimeline()) {
           ExperimentRow(title: "Twitter Timeline", imageName: "twitter_feed")
         }
-        NavigationButton(destination: MailInbox()) {
+        NavigationLink(destination: MailInbox()) {
           ExperimentRow(title: "Mail Inbox", imageName: "mail_inbox")
         }
-        NavigationButton(destination: InstagramFeed()) {
+        NavigationLink(destination: InstagramFeed()) {
           ExperimentRow(title: "Instagram", imageName: "instagram")
         }
       }
