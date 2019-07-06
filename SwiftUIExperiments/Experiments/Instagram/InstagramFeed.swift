@@ -14,7 +14,7 @@ struct InstagramFeed : View {
         .listRowInsets(EdgeInsets(top: 10, leading: 0, bottom: 10, trailing: 0))
       }
       .navigationBarTitle(Text("Instagram"), displayMode: .inline)
-      .navigationBarItems(leading: Image(systemName: "camera").font(font), trailing:
+      .navigationBarItems(trailing:
         HStack(spacing: 16) {
           Group {
             Image(systemName: "tv")

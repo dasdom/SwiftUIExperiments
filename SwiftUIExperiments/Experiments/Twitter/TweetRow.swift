@@ -10,53 +10,55 @@ struct TweetRow : View {
   
   var body: some View {
     HStack(alignment: .top) {
-      tweet.avatar
+      Image(tweet.avatarImageName)
         .resizable()
         .aspectRatio(contentMode: .fill)
+        .clipShape(Circle())
         .frame(minWidth: 0, maxWidth: 60, minHeight: 0, maxHeight: 60)
-        .cornerRadius(5)
       
       VStack(alignment: .leading, spacing: 5) {
         HStack {
-          Text(tweet.handle)
+          Text(tweet.username)
             .font(.footnote)
             .bold()
           
-          Spacer()
+          Text("@\(tweet.handle)")
+            .font(.footnote)
+            .foregroundColor(.gray)
           
           Text(tweet.timeString())
             .font(.footnote)
+            .foregroundColor(.gray)
+          
+          Spacer()
+          
+          Image(systemName: "chevron.down")
+            .font(.footnote)
+            .foregroundColor(.gray)
         }
         
         Group {
-          Text(tweet.tweetBody)
-            .lineLimit(nil)
-            .font(.body)
-          //            .fontWeight(.light)
           
-          if tweet.quotedTweet != nil {
-            VStack(alignment: .leading, spacing: 3) {
-              HStack {
-              Text(tweet.quotedTweet!.handle)
-                .font(.footnote)
-                .bold()
-                
-                Spacer()
-              }
-              
-              Text(tweet.quotedTweet!.tweetBody)
-                .lineLimit(nil)
-                .font(.body)
-              
-              }
-              .padding(5)
-              .frame(minWidth: 0, maxWidth: .infinity)
-              .background(Color(white: 0.9))
+          TweetBody(tweet: tweet)
+          
+          HStack(spacing: 40) {
+            Image(systemName: "bubble.left")
+            
+            HStack(spacing: 3) {
+              Image(systemName: "arrow.2.circlepath")
+              Text("3")
+            }
+            
+            HStack(spacing: 3) {
+              Image(systemName: "heart")
+              Text("8")
+            }
           }
+            .font(.footnote)
+            .foregroundColor(.gray)
         }
       }
       }
       .padding([.top, .bottom], 3)
   }
 }
-
