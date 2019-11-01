@@ -142,9 +142,9 @@ struct Calculator : View {
         .font(.body)
       
       VStack(spacing: 1) {
-        ForEach(keys.identified(by: \.self)) { row in
+        ForEach(keys, id: \.self) { row in
           HStack(spacing: 1) {
-            ForEach(row.identified(by: \.id)) { key in
+            ForEach(row, id: \.id) { key in
               Button(action: {
                 print("\(key.element.title)")
               }, label: {

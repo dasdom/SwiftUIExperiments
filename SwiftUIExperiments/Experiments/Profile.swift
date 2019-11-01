@@ -15,7 +15,7 @@ struct Profile : View {
           .background(Color.yellow)
         
         VStack(spacing: 10) {
-          ForEach(["A", "T", "S", "G"].identified(by: \.self)) { abbr in
+          ForEach(["A", "T", "S", "G"], id: \.self) { abbr in
             Text(abbr)
               .frame(minWidth: 36, maxWidth: 36, minHeight: 36, maxHeight: 36)
               .background(Color.gray)

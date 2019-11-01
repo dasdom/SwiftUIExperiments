@@ -15,7 +15,7 @@ struct MailInbox : View {
                     date: "9:51")]
   
   var body: some View {
-    List(mails.identified(by: \.id)) { mail in
+    List(mails, id: \.id) { mail in
       NavigationLink(destination: MailDetail()) {
         MailRow(mail: mail)
       }

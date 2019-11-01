@@ -26,7 +26,7 @@ struct TwitterTimeline : View {
   
   var body: some View {
     List {
-      ForEach(tweets.identified(by: \.id)) { tweet in
+      ForEach(tweets, id: \.id) { tweet in
         TweetRow(tweet: tweet)
       }
       }

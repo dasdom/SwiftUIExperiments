@@ -130,9 +130,9 @@ struct iOSCalculator : View {
         .background(Color.black)
       
       VStack(spacing: 0.5) {
-        ForEach(keys.identified(by: \.self)) { row in
+        ForEach(keys, id: \.self) { row in
           HStack(spacing: 0.5) {
-            ForEach(row.identified(by: \.id)) { key in
+            ForEach(row, id: \.id) { key in
               Button(action: {
                 print("\(key.element.title)")
               }, label: {

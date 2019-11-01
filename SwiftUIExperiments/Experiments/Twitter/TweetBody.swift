@@ -9,8 +9,8 @@ struct TweetBody : View {
   let tweet: Tweet
   
   private func text() -> Text {
-    let text = tweet.tweetBodyParts.reduce(Text("").color(.black)) { (text, part) -> Text in
-      text + Text(part.text).color(partColor(part: part))
+    let text = tweet.tweetBodyParts.reduce(Text("").foregroundColor(.black)) { (text, part) -> Text in
+      text + Text(part.text).foregroundColor(partColor(part: part))
     }
     
     return text
@@ -43,14 +43,14 @@ struct TweetBody : View {
           Text("TDD Fake Book for iOS")
             .font(.footnote)
           
-          Text("leanpub.com")
-            .font(.footnote)
-            .color(.gray)
+//          Text("leanpub.com")
+//            .font(.footnote)
+//            .foregroundColor(.gray)
         }
         .padding([.trailing], 8)
       }
       .cornerRadius(10)
-      .border(Color(white: 0.95), width: 1, cornerRadius: 10)
+//      .border(Color(white: 0.95), width: 1, cornerRadius: 10)
       .frame(minWidth: 0, maxWidth: .infinity)
     }
   }
