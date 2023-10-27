@@ -51,8 +51,8 @@ Dominik Hauser
 
 Follow me on [Twitter](https://twitter.com/dasdom) or add my [blog](https://dasdom.github.io) to you RSS reader.
 
-# Licence
+# License
 
 MIT
 
-See the Licence file.
+See the License file.
